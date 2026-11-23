@@ -1,2 +1,22 @@
-# SMARTGUEST
-AiAmazing
+# SMARTGUEST — Android starter
+
+Стартовый проект Android на Kotlin + Jetpack Compose. Можно редактировать с Android-телефона и собирать APK в облаке GitHub Actions.
+
+## Что включено
+- Простой экран-заготовка SMARTGUEST
+- Kotlin + Jetpack Compose
+- Gradle Kotlin DSL
+- GitHub Actions workflow для сборки APK без локальной Android Studio
+
+## Сборка APK с телефона (через GitHub)
+1. Создайте аккаунт GitHub или войдите в существующий.
+2. Создайте репозиторий и загрузите содержимое этой папки (не сам ZIP).
+3. Откройте вкладку **Actions** и запустите workflow `Build Android APK` (если запуск не появился автоматически, откройте workflow и нажмите **Run workflow**).
+4. После успешной сборки откройте результат запуска (run), в разделе **Artifacts** скачайте `SMARTGUEST-debug-apk`.
+5. Скачайте APK на Android и установите. Android может запросить разрешение на установку из браузера/файлового менеджера.
+
+## Локальная сборка
+Проект можно открыть в Android Studio на компьютере, если она появится позже.
+
+## Важно
+Это минимальный стартовый экран, не финальная функциональность приложения. Уточните функции SMARTGUEST, чтобы добавить их в проект.
